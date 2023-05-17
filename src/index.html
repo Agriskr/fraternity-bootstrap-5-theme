@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+"title":"Home"
+})
+
+<body>
+
+    @@include('html/header.html', { })
+
+
+    <section id="guest-events-start-section" class="header-with-right-side-headline">
+        <div class="headline-container ">
+            <div class="right-headline ">
+                <h1  class="text-light">
+                    Kā tev patiktu izbaudīt 105 gadus senas tradīcijas mūsdienu izpildījumā?
+                </h1>
+                <h3  class="text-light">
+                    Noskaidro to jebkurā no mūsu viesu vakariem šajā septembrī un oktobrī.
+                </h3>
+            </div>
+            <div class="header-buttons " >
+                <a class="btn btn-primary " id="aboutButton" href="/About.html">Uzzināt vairāk</a>
+                <a class="btn btn-outline-secondary" id="contactButton" href="/Contact.html">Sazinies ar mums</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="guest-events-section" class="p-5">
+        <div class="guest-events-section-container text-center">
+            <h4>Viesu vakari</h4>
+            <div class="guest-events-container pt-5">
+                <div class="guest-event">
+                    <img  src="@img/Studiju_atklasanas_svetki_325.jpg" class="guest-event__image" alt="iepazisanas_vakari">
+                        
+                    <div class="guest-event__description-container">
+                        <h5>Iepazīšanās vakari</h5>
+                        <p>
+                            Uzzini, ko studentu korporācija var Tev sniegt. Pastāstīsim par to, kas mēs esam un ko mēs
+                            darām. Varēsi arī iepazīt mūsu namu un iespējas, ko tas piedāvā.
+                        </p>
+                    </div>
+                </div>
+                <div class="guest-event">
+                    <img  src="@img/Literarais_vakars_325.jpg" class="guest-event__image" alt="literarais_vakars">
+
+                    <div class="guest-event__description-container">
+                        <h5>Literārie vakari</h5>
+                        <p>
+                            Iepazīsti mūsu akadēmisko pusi. Pirmajā literārajā vakarā kopā ar studenšu korporāciju
+                            Dzintra klausīsimies Kristapa Liepiņa pieredzes stāstā par alpīnismu. Savukārt, otrais
+                            literārais vakars ir veltīts mūsu filistra dzejoļu grāmatas atklāšanai.
+                        </p>
+                    </div>
+                </div>
+                <div class="guest-event">
+                    <img  src="@img/Paukosanas_turnirs_325.jpg" class="guest-event__image" alt="paukosanas_vakari">
+
+                    <div class="guest-event__description-container">
+                        <h5>Paukošanās vakari</h5>
+                        <p>
+                            Iepazīsti akadēmisko paukošanu – tradīciju, kuru korporācijas piekopj kopš 11. gadsimta.
+                            Pieredzējušu paukotāju vadībā būs iespēja izmēģināt savus spēkus rapiera pārvaldīšanā.
+                        </p>
+                    </div>
+                </div>
+                <div class="guest-event">
+                    <img  src="@img/Alus_vakars_325.jpg" class="guest-event__image" alt="alus_vakars">
+
+                    <div class="guest-event__description-container">
+                        <h5>Dziesmu un alus vakari</h5>
+                        <p>
+                            Izbaudi draudzīgu gaisotni un iepazīsti esošos korporācijas Latvia biedrus. Uzzini viņu
+                            stāstus par dažādiem laikiem un noskaidro, ko no sirds katram nozīmē korporācija. Vakara
+                            gaitā dziedāsim dziesmas, lai lustīgāk! Neuztraucies, ja neesi gājis korī – solo nebūs
+                            jādzied. Dziesmu grāmatiņas arī visiem pietiks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="py-5 text-center">
+                Ir interese? Vēlies ierasties? Lieliski! Atstāj savu kontaktinformāciju. Mēs ar Tevi sazināsimies.
+            </h2>
+
+            <div class="guest-events-signup pb-5">
+                <a class="btn btn-primary contact-btn" asp-page="/Contact">
+                    Pieteikties
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordions B5-->
+    <section id=common-questions-section class="p-5 bg-secondary text-center">
+        <h4>Biežāk uzdotie jautājumi</h4>
+        <div class="container common-questions__list text-left mt-5">
+            <div class="accordion " id="accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button  " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h5>Kur notiek viesu vakari?</h5>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <p>Visi viesu vakari notiek mūsu telpās Šarlotes ielā 3.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h5>Kādā apģērbā man ir jāierodas?</h5>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <p>Korporācijās ir pieņemts uz pasākumiem ierasties uzvalkā. Ja uzvalks nav pa
+                                rokai,
+                                tad business casual vai melnas bikses un klasiskais krekls derēs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h5>Uz cik viesu vakariem man
+                                jāierodas, lai tiktu uzņemts?</h5>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <p>Ideālā gadījumā esi apmeklējis vismaz 2 viesu vakaris. Pats galvenais, ka esi
+                                iepazinies ar mums, ar mūsu tradīcijām un sadzīvi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <h5>Ko darīt, ja netieku uz viesu vakariem?</h5>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <p>Kaut arī viesu vakari mēdz būt akadēmisko semestru sākumos, pasākumi notiek visu
+                                semestri. Dod mums ziņu un atradīsim veidu, kā dot tev iespēju iepazīt studentu
+                                korporāciju Latvia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- accordions 5 -->    
+
+    <section id="reasons-to-aply-section" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-5">Kāpēc pievienoties studentu korporācijai Latvia?</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Kontakti</h4>
+                    <p class="mt-4">
+                        Iespēja iegūt jaunus draugus un iepazīt cilvēkus no dažādām profesionālajām jomām.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Atbalsts</h4>
+                    <p class="mt-4">
+                        Iespēja bez maksas dzīvot korporācijas namā. Bezmaksas pasākumi biedru kandidātiem.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Attīstība</h4>
+                    <p class="mt-4">
+                        Apgūsti paukošanos, etiķeti, balles dejas u.c. Piedalies izglītojošos pasākumos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="testemonials" class="py-5 text-center bg-secondary">
+        <h4>Ko saka mūsu biedri?</h4>
+        // karuselisB5 sakums -->
+        <!-- <div id="testemonials-carousel" class="carousel slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-content">
+                        <img src="@img/testemonials/Rolands.jpg" alt="Testimonial Slider" class="carousel-img">
+                        <div class="carousel-content_description text-left">
+                            <h5>Rolands Krumbergs</h5>
+                            <h6>PROGRAMMATŪRAS IZSTRĀDĀTĀJS, KONSULTANTS</h6>
+                            <blockquote>
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aliquam impedit,
+                                animi repudiandae quibusdam, architecto porro deleniti quae doloremque quisquam odit
+                                eaque adipisci nemo alias dolorem sequi vitae voluptatum dicta?"
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-content">
+                        <img src="@img/testemonials/Rolands.jpg" alt="Testimonial Slider" class="carousel-img">
+                        <div class="carousel-content_description text-left">
+                            <h5>Rolands Krumbergs</h5>
+                            <h6>PROGRAMMATŪRAS IZSTRĀDĀTĀJS, KONSULTANTS</h6>
+                            <blockquote>
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aliquam impedit,
+                                animi repudiandae quibusdam, architecto porro deleniti quae doloremque quisquam odit
+                                eaque adipisci nemo alias dolorem sequi vitae voluptatum dicta?"
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-content">
+                        <img src="@img/testemonials/Rolands.jpg" alt="Testimonial Slider" class="carousel-img">
+                        <div class="carousel-content_description text-left">
+                            <h5>Rolands Krumbergs</h5>
+                            <h6>PROGRAMMATŪRAS IZSTRĀDĀTĀJS, KONSULTANTS</h6>
+                            <blockquote>
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aliquam impedit,
+                                animi repudiandae quibusdam, architecto porro deleniti quae doloremque quisquam odit
+                                eaque adipisci nemo alias dolorem sequi vitae voluptatum dicta?"
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- karuselisB5 beigas -->
+    <!-- </section> --> 
+    @@include('html/footer.html', { })
