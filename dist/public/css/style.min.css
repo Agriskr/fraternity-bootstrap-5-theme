@@ -12391,6 +12391,10 @@ p {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.offcanvas-title {
+  color: #f4f5f7;
+}
+
 .header-with-right-side-headline {
   display: flex;
   justify-content: flex-start;
