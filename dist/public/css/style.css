@@ -11995,9 +11995,6 @@ body {
   width: 100%;
   position: relative;
 }
-#main-start-section .main-content {
-  padding-top: 20rem;
-}
 @media (min-width: 768px) {
   #main-start-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Jubilejas_svetki_2048_1300-min.jpg") center center;
@@ -12006,9 +12003,6 @@ body {
     height: 100%;
     width: 100%;
     position: relative;
-  }
-  #main-start-section .main-content {
-    padding-top: 20rem;
   }
 }
 
@@ -12020,9 +12014,6 @@ body {
   width: 100%;
   position: relative;
 }
-#gallery-start-section .main-content {
-  padding-top: 20rem;
-}
 @media (min-width: 768px) {
   #gallery-start-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/100_gades_akts_1949_1300-min.jpg") center center;
@@ -12031,9 +12022,6 @@ body {
     height: 100%;
     width: 100%;
     position: relative;
-  }
-  #gallery-start-section .main-content {
-    padding-top: 20rem;
   }
 }
 
@@ -12045,9 +12033,6 @@ body {
   width: 100%;
   position: relative;
 }
-#about-start-section .main-content {
-  padding-top: 20rem;
-}
 @media (min-width: 768px) {
   #about-start-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/main_1950_1300-min.jpg") center center;
@@ -12056,9 +12041,6 @@ body {
     height: 100%;
     width: 100%;
     position: relative;
-  }
-  #about-start-section .main-content {
-    padding-top: 20rem;
   }
 }
 
@@ -12070,9 +12052,6 @@ body {
   width: 100%;
   position: relative;
 }
-#apply-start-section .main-content {
-  padding-top: 20rem;
-}
 @media (min-width: 768px) {
   #apply-start-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Karogs_2048-min.jpg") center center;
@@ -12081,9 +12060,6 @@ body {
     height: 100%;
     width: 100%;
     position: relative;
-  }
-  #apply-start-section .main-content {
-    padding-top: 20rem;
   }
 }
 
@@ -12095,9 +12071,6 @@ body {
   width: 100%;
   position: relative;
 }
-#contact-start-section .main-content {
-  padding-top: 20rem;
-}
 @media (min-width: 768px) {
   #contact-start-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Studiju_atklasanas_svetki_1950_1300-min.jpg") center center;
@@ -12106,9 +12079,6 @@ body {
     height: 100%;
     width: 100%;
     position: relative;
-  }
-  #contact-start-section .main-content {
-    padding-top: 20rem;
   }
 }
 
@@ -12120,9 +12090,6 @@ body {
   width: 100%;
   position: relative;
 }
-#guest-events-start-section .main-content {
-  padding-top: 20rem;
-}
 @media (min-width: 768px) {
   #guest-events-start-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/main_crop_landscape_flip-min.jpg") center center;
@@ -12131,9 +12098,6 @@ body {
     height: 100%;
     width: 100%;
     position: relative;
-  }
-  #guest-events-start-section .main-content {
-    padding-top: 20rem;
   }
 }
 
